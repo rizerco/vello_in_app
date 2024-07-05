@@ -1,0 +1,16 @@
+[package]
+name = "vello_in_app"
+authors = ["jinleili", "rizeco"]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.76"
+
+[lib]
+crate-type = ["rlib", "staticlib", "cdylib"]
+
+[dependencies]
+app-surface = "0.4.2"
+libc = "0.2.155"
+pollster = "0.3.0"
+vello = "0.2.0"
+winit = "0.29.5"
